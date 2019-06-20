@@ -146,6 +146,11 @@ final class ResultHandler implements ResultHandlerInterface
             add_filter("{$type}_template", $template_setter);
         });
 
-        add_filter('template_include', $returnTemplate, -1);
+        add_filter('template_include', function($template){
+            if (!$template) {
+                remove_all_filters('template_include');    
+            }
+            return $template;
+        }, -1);
     }
 }
