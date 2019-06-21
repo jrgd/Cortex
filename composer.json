@@ -1,5 +1,6 @@
 {
-    "name":              "brain/cortex",
+    "name":              "jrgd/cortex",
+    "type": "wordpress-plugin",
     "description":       "Cortex is a package that implements a routing system in WordPress.",
     "keywords":          [
         "wordpress",
@@ -9,7 +10,7 @@
         "rewrite rules",
         "pretty permalink"
     ],
-    "homepage":          "https://github.com/Brain-WP/Cortex",
+    "homepage":          "https://github.com/jrgd/Cortex",
     "license":           "MIT",
     "authors":           [
         {
@@ -20,8 +21,8 @@
         }
     ],
     "support":           {
-        "issues": "https://github.com/Brain-WP/Cortex/issues",
-        "source": "https://github.com/Brain-WP/Cortex"
+        "issues": "https://github.com/jrgd/Cortex/issues",
+        "source": "https://github.com/jrgd-WP/Cortex"
     },
     "require":           {
         "php":              ">=5.5",
